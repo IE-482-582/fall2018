@@ -24,7 +24,7 @@
     
  4. Copy `package.xml` and the Python scripts to our followbot workspace
     ```
-    cd fall2018/06_Followbot/code
+    cd fall2018/06_Followbot/code/followbot
     cp package.xml ~/catkin_ws/src/followbot/
     cp scripts/* ~/catkin_ws/src/followbot/scripts/
     ```

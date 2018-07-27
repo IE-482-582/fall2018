@@ -7,7 +7,7 @@
     cd ~/catkin_ws/src
     catkin_create_pkg followbot rospy geometry_msgs sensor_msgs
     ```
-    *Note: We have added some dependency packages.  We'll take a look at `CMakeLists.txt` and `package.xml` shortly to see how that helped us.*
+    *Note that we have added some dependency packages, which will show up in `CMakeLists.txt` and `package.xml`.*
     
 2. Let's go ahead and create our `scripts` directory:
     ```

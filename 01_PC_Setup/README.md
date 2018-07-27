@@ -7,7 +7,7 @@ You will need 25GB of free space on your computer.  **Do not procede any further
 
 ## Install the Virtual Machine
 
-These steps were adapted from https://www.pyimagesearch.com/2017/09/22/deep-learning-python-ubuntu-virtual-machine/
+These steps were adapted from https://www.pyimagesearch.com/2017/09/22/deep-learning-python-ubuntu-virtual-machine/.  (This is a great resource for all kinds of cool projects...I highly recommend that you check out the other tutorials on this Website.)
 
 1. Download VirtualBox:  https://www.virtualbox.org/wiki/Downloads 
 	- The "host" is your computer.  For example, if you're running Windows, choose a Windows host.

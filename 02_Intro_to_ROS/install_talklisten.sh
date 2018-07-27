@@ -9,7 +9,7 @@
 set -e
 
 # ----------------------------------
-MYPKG = "talklisten"
+MYPKG="talklisten"
 # ----------------------------------
 
 # See https://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux
@@ -70,7 +70,7 @@ if echo "$answer" | grep -iq "^y" ;then
 	catkin_create_pkg ${MYPKG}
 	
 	# Copy the catkin contents from the archive to the new package
-	cp -a ${myPWD}/code/{$MYPKG}/. ${HOME}/catkin_ws/src/{$MYPKG}
+	cp -a ${myPWD}/code/${MYPKG}/. ${HOME}/catkin_ws/src/${MYPKG}
 	
 	# Change the permissions on scripts
 	cd ${HOME}/catkin_ws/src/${MYPKG}/scripts

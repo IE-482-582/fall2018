@@ -24,7 +24,7 @@
     
  4. Copy the Python scripts to our teleopbot workspace
     ```
-    cd fall2018/05_Teleopbot/code
+    cd fall2018/05_Teleopbot/code/teleopbot
     cp scripts/* ~/catkin_ws/src/teleopbot/scripts/
     ```
     

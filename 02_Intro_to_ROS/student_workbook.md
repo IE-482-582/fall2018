@@ -87,8 +87,9 @@ This tutorial covers using catkin to create a new package, and rospack to list p
 
 **IN SECTION 4, DO NOT ADD THE WORKSPACE TO YOUR ROS ENVIRONMENT:**
 ```
-$ . ~/catkin_ws/devel/setup.bash
+~~$ . ~/catkin_ws/devel/setup.bash~~
 ```
+
 *This has already been done for you in your virtual machine.*
 
 

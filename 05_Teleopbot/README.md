@@ -238,7 +238,7 @@ The good news is that we are going to write a ROS node that will allow the use o
 
 Fortunately, the code that can be used for XBox control will also allow you to use your mouse or trackpad.
 
-You will have a homework assignment on this topic.  Details will be provided in class.  In the meantime, here's a summary of what you needs to happen.
+You will have a homework assignment on this topic.  Details will be provided in class.  In the meantime, here's a summary of what needs to happen.
 
 1.  Start your turtlebot as before:
    ```
@@ -260,7 +260,7 @@ You will have a homework assignment on this topic.  Details will be provided in 
     rosrun teleopbot gamepad_testing_STUDENT.py
     ```
 
-    You'll need to edit this script.  Look for all of the "FIXME" comments.  You'll probably also want to rename the file to be more descriptive.  Maybe something like `gamepad_publisher.py` (like `key_publisher.py`).
+    You'll need to edit this script.  Look for all of the "FIXME" comments.  You'll probably also want to rename the file to be more descriptive.  Maybe something like `gamepad_publisher.py` (analogous to the `key_publisher.py` script).
    
 4. Write another ROS node that implements rates and ramps.    
 

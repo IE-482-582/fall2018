@@ -6,7 +6,7 @@
 
 Before *we* review the remainder of this document in class, *you* need to work through the ROS tutorials.
 
-1. Open (student_workbook.md)[student_workbook.md].
+1. Open [student_workbook.md](student_workbook.md).
 
 2. Submit your questions at the beginning of class.
 	- Also leave notes to yourself here.  Just clearly mark questions.

@@ -27,7 +27,7 @@ NOTE: These instructions are a little different from the textbook's.
         
  4. Copy the Python scripts to our wanderbot workspace
     ```
-    cd fall2018/03_Wanderbot/code
+    cd fall2018/03_Wanderbot/code/wanderbot
     cp scripts/* ~/catkin_ws/src/wanderbot/scripts/
     ```
     

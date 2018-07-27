@@ -122,7 +122,7 @@ Suppose the talker is a car, and that it is broadcasting its location to a topic
     - Open a text editor.  Geany is a good one.  You might also like Sublime Text, or even gedit.
    
     - Within your text editor type the following Python code:
-      ```
+      ```python
       #!/usr/bin/env python
       
       # license removed for brevity
@@ -147,7 +147,6 @@ Suppose the talker is a car, and that it is broadcasting its location to a topic
               talker()
           except rospy.ROSInterruptException:
               pass
-         
       ```
       
     - Save this file as `talker.py` inside the `~/catkin_ws/src/talklisten/scripts` directory.
@@ -171,7 +170,7 @@ Suppose the talker is a car, and that it is broadcasting its location to a topic
    
     - Within your text editor type the following Python code:
 
-      ```
+      ```python
       #!/usr/bin/env python
       
       # license removed for brevity
@@ -378,7 +377,7 @@ Before we get started, here's our plan:
     - Open your text editor.
     
     - Within the text editor, type the following Python code:
-         ```
+         ```python
          #!/usr/bin/env python
          
          # talker2.py
@@ -430,7 +429,7 @@ Before we get started, here's our plan:
     - Open your text editor.
     
     - Within the text editor, type the following Python code:
-      ```
+      ```python
       #!/usr/bin/env python
       
       # listener2.py
@@ -615,7 +614,7 @@ Before we get started, here's our plan:
     - Open your text editor.
     
     - Within the text editor, type the following Python code:
-         ```
+         ```python
          #!/usr/bin/env python
          
          # client.py
@@ -660,7 +659,7 @@ Before we get started, here's our plan:
     - Open your text editor.
     
     - Within the text editor, type the following Python code:
-      ```
+      ```python
       #!/usr/bin/env python
       
       # server.py

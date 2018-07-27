@@ -250,7 +250,7 @@ Suppose the talker is a car, and that it is broadcasting its location to a topic
       ```
       roscd talklisten
       cd scripts
-      rosrun custom_message talker.py
+      rosrun talklisten talker.py
       ```
 
     - Toggle back and forth between the 2nd and 3rd terminal windows to see what's happening.
@@ -711,7 +711,7 @@ Before we get started, here's our plan:
       ```
       roscd basic_service
       cd scripts
-      rosrun basic_service client.py
+      rosrun basic_service client.py blah blah
       ```
    
     - The 3rd window will run our server node.

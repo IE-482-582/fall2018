@@ -14,7 +14,7 @@ if __name__ == '__main__':
 	tty.setcbreak(sys.stdin.fileno())
 	# END TERMIOS
 
-	print "Publishing keystrokes. Press Ctrl-C to exit..."
+	print "Publishing keystrokes. Press Ctrl-Z to exit..."
 
 	while not rospy.is_shutdown():
 		# BEGIN SELECT

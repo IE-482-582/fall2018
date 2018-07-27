@@ -20,7 +20,9 @@ def listener():
     rospy.init_node('listener', anonymous=True)
 
     rospy.Subscriber("chatter", String, callback)
-
+    
+    print("I'm listening...")
+	
     # spin() simply keeps python from exiting until this node is stopped
     rospy.spin()
 

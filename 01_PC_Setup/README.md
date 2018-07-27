@@ -21,7 +21,7 @@ These steps were adapted from https://www.pyimagesearch.com/2017/09/22/deep-lear
 3. Install the Guest Additions by double-clicking on the extension pack file that you downloaded above.
 
 4. Download the virtual machine for the course.
-	- PROVIDE LINK TO BOX.COM
+	- **The download link is provided to you on UBlearns**
 	- Note:  This is a large file (4.4 GB)...it will take some time to download. 
 
 5. The file you just downloaded has been "zipped" (compressed).  You'll need to unzip it now.

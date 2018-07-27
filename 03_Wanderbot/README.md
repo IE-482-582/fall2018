@@ -110,17 +110,17 @@ We'll need two (2) terminal windows.
     
 1. Use a *launch* file to start roscore and Gazebo.
     
-       ```
-       roslaunch turtlebot_gazebo turtlebot_world.launch
-       ```
+   ```
+   roslaunch turtlebot_gazebo turtlebot_world.launch
+   ```
 
     
 2. Run the range ahead script:
     
-       ```
-       cd ~/catkin_ws/src/wanderbot/scripts
-       rosrun wanderbot range_ahead.py
-       ```
+   ```
+   cd ~/catkin_ws/src/wanderbot/scripts
+   rosrun wanderbot range_ahead.py
+   ```
 
 ### Understanding what's happening
 

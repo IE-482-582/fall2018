@@ -86,6 +86,7 @@ This tutorial introduces ROS filesystem concepts, and covers using the roscd, ro
 This tutorial covers using catkin to create a new package, and rospack to list package dependencies.
 
 **IN SECTION 4, DO NOT ADD THE WORKSPACE TO YOUR ROS ENVIRONMENT:**
+
 > ~~$ . ~/catkin_ws/devel/setup.bash~~
 
 *This has already been done for you in your virtual machine.*
@@ -100,7 +101,7 @@ This tutorial covers using catkin to create a new package, and rospack to list p
 ### 3) [Building a ROS Package](http://wiki.ros.org/ROS/Tutorials/BuildingPackages)
 
 **IN SECTION 1, DO NOT DO THIS:**
-> ~~# source /opt/ros/%YOUR_ROS_DISTRO%/setup.bash~~
+> ~~# source /opt/ros/\<YOUR_ROS_DISTRO\>/setup.bash~~
 
 > ~~$ source /opt/ros/kinetic/setup.bash             # For Kinetic for instance~~
 

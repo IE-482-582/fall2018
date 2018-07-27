@@ -87,6 +87,7 @@ This tutorial covers using catkin to create a new package, and rospack to list p
 
 **IN SECTION 4, DO NOT ADD THE WORKSPACE TO YOUR ROS ENVIRONMENT:**
 > ~~$ . ~/catkin_ws/devel/setup.bash~~
+
 *This has already been done for you in your virtual machine.*
 
 
@@ -100,7 +101,9 @@ This tutorial covers using catkin to create a new package, and rospack to list p
 
 **IN SECTION 1, DO NOT DO THIS:**
 > ~~# source /opt/ros/%YOUR_ROS_DISTRO%/setup.bash~~
+
 > ~~$ source /opt/ros/kinetic/setup.bash             # For Kinetic for instance~~
+
 *This has already been done for you in your virtual machine.*
 
 
@@ -114,7 +117,8 @@ This tutorial covers using catkin to create a new package, and rospack to list p
 This tutorial introduces ROS graph concepts and discusses the use of roscore, rosnode, and rosrun commandline tools.		
 
 **IN SECTION 1, DO NOT DO THIS:**
-> ~~$ sudo apt-get install ros-<distro>-ros-tutorials~~
+> ~~$ sudo apt-get install ros-\<distro\>-ros-tutorials~~
+	
 *This has already been done for you in your virtual machine.*
 
 
@@ -128,8 +132,9 @@ This tutorial introduces ROS graph concepts and discusses the use of roscore, ro
 This tutorial introduces ROS topics as well as using the rostopic and rqt_plot commandline tools.
 
 **IN SECTION 2.1, DO NOT DO THIS:**
-> ~~$ sudo apt-get install ros-<distro>-rqt~~
-> ~~$ sudo apt-get install ros-<distro>-rqt-common-plugins~~
+> ~~$ sudo apt-get install ros-\<distro\>-rqt~~
+> ~~$ sudo apt-get install ros-\<distro\>-rqt-common-plugins~~
+
 *Your virtual machine already has these things installed.*
 
 

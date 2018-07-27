@@ -87,7 +87,7 @@ This tutorial covers using catkin to create a new package, and rospack to list p
 
 **IN SECTION 4, DO NOT ADD THE WORKSPACE TO YOUR ROS ENVIRONMENT:**
 
-> ~~$ . ~/catkin_ws/devel/setup.bash~~
+> ~~$ . \~/catkin_ws/devel/setup.bash~~ 
 
 *This has already been done for you in your virtual machine.*
 
@@ -134,6 +134,7 @@ This tutorial introduces ROS topics as well as using the rostopic and rqt_plot c
 
 **IN SECTION 2.1, DO NOT DO THIS:**
 > ~~$ sudo apt-get install ros-\<distro\>-rqt~~
+
 > ~~$ sudo apt-get install ros-\<distro\>-rqt-common-plugins~~
 
 *Your virtual machine already has these things installed.*

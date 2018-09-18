@@ -127,7 +127,7 @@
 
 - How to use an Action
 
--In example 5-1, are the codes "duration time_to_wait" and "duration time_elapsed" pre-determined codes or built in functions?
+- In example 5-1, are the codes "duration time_to_wait" and "duration time_elapsed" pre-determined codes or built in functions?
 
 	- *I think the answers to these questions will be addressed in our next two lectures.*
 
@@ -144,11 +144,11 @@
 	~~$gedit package.xml~~
 	```
 
-The error I keep getting
+	The error I keep getting
 	```
 	bash: syntax error near unexpected token 'newline'
 	```
-Got the above error for each step in step 6
+	Got the above error for each step in step 6
 
 	- *You'll need to see Somayeh or Dr. Murray during office hours.*
 

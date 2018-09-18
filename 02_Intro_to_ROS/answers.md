@@ -193,6 +193,7 @@
 	
 - After putting the parameters in a yaml file, can you load the file and use these parameters in a different package, or will they only work for the turtlesim?
 
+	- *You can copy portions of the contents of that file, but there are some headers at the top that specify particular packages.  So, you can't simply re-use the same file as-is.*
 ---
 
 ## 7) Creating a ROS msg and srv

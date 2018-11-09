@@ -38,10 +38,10 @@
    - I highly recommend that you use your old `followbot` code as a starting point.
    
 10. In your `move_robot.py` script: 
-	a. Create a mask that will detect the red ball;
-    b. Determine the size of the ball;
-    c. Draw a box around the ball; 
-    d. Determine the robot's distance from the ball; and
-    e. Make your robot follow the ball from a consistent distance.
+	1. Create a mask that will detect the red ball;
+    2. Determine the size of the ball;
+    3. Draw a box around the ball; 
+    4. Determine the robot's distance from the ball; and
+    5. Make your robot follow the ball from a consistent distance.
 
 11. Create a `README.md` file for your new package.

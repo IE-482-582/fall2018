@@ -74,8 +74,8 @@ if echo "$answer" | grep -iq "^y" ;then
 	
 	# Change the permissions on scripts
 	cd ${HOME}/catkin_ws/src/${MYPKG}/scripts
-	chmod +x *.py
-	chmod +x *.sh
+	# chmod +x *.py
+	# chmod +x *.sh
 	 
 	# Rebuild catkin 
 	cd ${HOME}/catkin_ws

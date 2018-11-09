@@ -2,17 +2,17 @@
 
 ## To Do
 
-1. Create a new package named `followball`
+1. Create a new package named `redball`
    - Don't forget to edit the `CMakeLists.txt` and `package.xml` files.  See the `followbot` package for examples.
    
-2. Edit `redball.launch`, `redball.world`, and `redball.material` files to reference the new `followball` package.
+2. Edit `redball.launch`, `redball.world`, and `redball.material` files to reference the new `redball` package.
    - Make sure there are **no** references to `followbot`.
 
 3. Test that you're able to launch Gazebo:
 
    ```
-   cd ~/catkin_ws/src/followball/scripts
-   roslaunch followball redball.launch
+   cd ~/catkin_ws/src/redball/scripts
+   roslaunch redball redball.launch
    ```
    
 4. Move the ball so it's in view of the camera

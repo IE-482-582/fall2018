@@ -3,6 +3,7 @@
 ## To Do
 
 <STRIKE>
+	
 1. Create a new package named `redball`
    - Don't forget to edit the `CMakeLists.txt` and `package.xml` files.  See the `followbot` package for examples.
    

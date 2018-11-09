@@ -2,11 +2,26 @@
 
 ## To Do
 
-1. Create a new package named `redball`
+<STRIKE>1. Create a new package named `redball`
    - Don't forget to edit the `CMakeLists.txt` and `package.xml` files.  See the `followbot` package for examples.
    
 2. Edit `redball.launch`, `redball.world`, and `redball.material` files to reference the new `redball` package.
    - Make sure there are **no** references to `followbot`.
+</STRIKE>
+
+1. Clone the course repository:
+   ```
+   cd ~/Downloads
+   rm -rf fall2018
+   git clone https://github.com/IE-482-582/fall2018.git
+   ```
+   
+2. Run the `redball` installation script:
+   ```
+   cd ~/Downloads/fall2018/09_redball_code
+   chmod +x install_redball.sh
+   ./install_redball.sh
+   ```
 
 3. Test that you're able to launch Gazebo:
 

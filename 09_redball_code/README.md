@@ -29,12 +29,12 @@
    
 7.  Write a ROS node that issues this command.  Save this node as `move_ball.py`.
 
-8.  Edit `move_ball.py` so it "continuously" moves the ball around (within the boundaries of the world, of course).
+8. Edit `move_ball.py` so it "continuously" moves the ball around (within the boundaries of the world, of course).
    - You might want the ball to stop periodically.
    - You are encouraged to make the ball move in x-, y-, and z-space.
    - Make sure the ball doesn't move too fast, though.
       
-9.  Write a ROS node that will control your robot.  Save this node as `move_robot.py`.
+9. Write a ROS node that will control your robot.  Save this node as `move_robot.py`.
    - I highly recommend that you use your old `followbot` code as a starting point.
    
 10. In your `move_robot.py` script: 

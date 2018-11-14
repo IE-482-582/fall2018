@@ -1,0 +1,75 @@
+Language model created by QuickLM on Wed Nov 14 07:06:03 EST 2018
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 10 sentences and 15 words
+
+\data\
+ngram 1=15
+ngram 2=23
+ngram 3=14
+
+\1-grams:
+-0.8325 </s> -0.3010
+-0.8325 <s> -0.2319
+-1.8325 CANCEL -0.2319
+-1.8325 COMMAND -0.2319
+-1.8325 EMAIL -0.2319
+-1.8325 ENOUGH -0.2319
+-1.8325 HELLO -0.2946
+-1.8325 HI -0.2319
+-1.8325 QUIET -0.2319
+-1.8325 SAY -0.2946
+-1.8325 SHUT -0.2946
+-1.5315 STOP -0.2244
+-1.8325 UP -0.2319
+-1.8325 VADER -0.2319
+-1.8325 WORLD -0.2319
+
+\2-grams:
+-1.3010 <s> CANCEL 0.0000
+-1.3010 <s> EMAIL 0.0000
+-1.3010 <s> ENOUGH 0.0000
+-1.3010 <s> HELLO 0.0000
+-1.3010 <s> QUIET 0.0000
+-1.3010 <s> SAY 0.0000
+-1.3010 <s> SHUT 0.0000
+-1.0000 <s> STOP 0.0000
+-1.3010 <s> VADER 0.0000
+-0.3010 CANCEL </s> -0.3010
+-0.3010 COMMAND </s> -0.3010
+-0.3010 EMAIL </s> -0.3010
+-0.3010 ENOUGH </s> -0.3010
+-0.3010 HELLO WORLD 0.0000
+-0.3010 HI </s> -0.3010
+-0.3010 QUIET </s> -0.3010
+-0.3010 SAY HI 0.0000
+-0.3010 SHUT UP 0.0000
+-0.6021 STOP </s> -0.3010
+-0.6021 STOP COMMAND 0.0000
+-0.3010 UP </s> -0.3010
+-0.3010 VADER </s> -0.3010
+-0.3010 WORLD </s> -0.3010
+
+\3-grams:
+-0.3010 <s> CANCEL </s>
+-0.3010 <s> EMAIL </s>
+-0.3010 <s> ENOUGH </s>
+-0.3010 <s> HELLO WORLD
+-0.3010 <s> QUIET </s>
+-0.3010 <s> SAY HI
+-0.3010 <s> SHUT UP
+-0.6021 <s> STOP </s>
+-0.6021 <s> STOP COMMAND
+-0.3010 <s> VADER </s>
+-0.3010 HELLO WORLD </s>
+-0.3010 SAY HI </s>
+-0.3010 SHUT UP </s>
+-0.3010 STOP COMMAND </s>
+
+\end\

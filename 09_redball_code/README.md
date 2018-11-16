@@ -1,15 +1,10 @@
 # redball files
 
-## To Do
+This package directs a turtlebot to follow a ball around a Gazebo world.
 
-<STRIKE>
-	
-1. Create a new package named `redball`
-   - Don't forget to edit the `CMakeLists.txt` and `package.xml` files.  See the `followbot` package for examples.
-   
-2. Edit `redball.launch`, `redball.world`, and `redball.material` files to reference the new `redball` package.
-   - Make sure there are **no** references to `followbot`.
-</STRIKE>
+---
+
+## Installation Instructions
 
 1. Clone the course repository:
    ```
@@ -25,40 +20,63 @@
    ./install_redball.sh
    ```
 
-3. Test that you're able to launch Gazebo:
+---
+
+## Finding the Right Color Masks
+
+Setting the appropriate HSV ranges can be tricky.  The `color_filter_test.py` script will help you to find the correct values.
+
+You'll need two (2) terminal windows for this.
+
+1. Terminal 1 -- Launch Gazebo
 
    ```
    cd ~/catkin_ws/src/redball/scripts
    roslaunch redball redball.launch
    ```
-   
-4. Move the ball so it's in view of the camera
-   - You'll need to edit `redball.world`.
-   
-5. Fix the lighting.  Notice how dark the underside of the ball is?
-   - Again, take a look at `redball.world`.
 
-6. Test the following command, which will move the red ball (make sure you're running Gazebo first):
+2. Terminal 2 -- Run the Color Filter Script
 
    ```
-   rosservice call /gazebo/set_model_state '{model_state: { model_name: red_ball_1, pose: { position: { x: 2, y: 0, z: 0.5 }, orientation: {x: 0, y: 0 , z: 0, w: 0} }, twist: { linear: {x: 0, y: 0, z: 0}, angular: { x: 0, y: 0, z: 0}}, reference_frame: world}}'
+   cd ~/catkin_ws/src/redball/scripts
+   rosrun redball color_filter_test.py
    ```
-   
-7.  Write a ROS node that issues this command.  Save this node as `move_ball.py`.
 
-8. Edit `move_ball.py` so it "continuously" moves the ball around (within the boundaries of the world, of course).
-   - You might want the ball to stop periodically.
-   - You are encouraged to make the ball move in x-, y-, and z-space.
-   - Make sure the ball doesn't move too fast, though.
-      
-9. Write a ROS node that will control your robot.  Save this node as `move_robot.py`.
-   - I highly recommend that you use your old `followbot` code as a starting point.
-   
-10. In your `move_robot.py` script: 
-	1. Create a mask that will detect the red ball;
-    2. Determine the size of the ball;
-    3. Draw a box around the ball; 
-    4. Determine the robot's distance from the ball; and
-    5. Make your robot follow the ball from a consistent distance.
+The last script will generate some images and `.csv` files in the scripts directory.  You may open the `.csv` files in Excel (or other spreadsheet app).  Each cell will contain `[h, s, v]` values.  It will be helpful to also have the images open so you can determine which cell corresponds with which part of the image.
 
-11. Create a `README.md` file for your new package.
+---
+
+## Make the Robot follow the Ball
+
+You'll need three (3) terminal windows.
+
+1. Terminal 1 -- Launch Gazebo
+
+   ```
+   cd ~/catkin_ws/src/redball/scripts
+   roslaunch redball redball.launch
+   ```
+
+2. Terminal 2 -- Start the Robot Controller
+
+   ```
+   cd ~/catkin_ws/src/redball/scripts
+   rosrun redball move_robot.py
+   ```
+
+3. Terminal 3 -- Move the Ball
+
+   ```
+   cd ~/catkin_ws/src/redball/scripts
+   rosrun redball move_ball.py
+   ```
+
+---
+
+## Editing/Customizing the Code
+
+1. Take a look at the top of the `move_robot.py` script.  You'll see that there are some parameter values for you to change.  Experiment with different parameter values.  In particular, look at the options for `self.trackMethod`.
+
+2. You may notice that the Hough Circles controller is very noisy.  See if you can improve the performance.
+
+3. You should also look at the parameters in the `move_ball.py` script.

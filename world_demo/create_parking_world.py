@@ -419,6 +419,6 @@ outFile.write(stateClosing)
 
 outFile.close()
 
-print "See 'parking_lot.world'."
+print "See 'parking_lot_test.world'."
 
 

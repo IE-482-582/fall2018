@@ -183,6 +183,16 @@ There are 3 sections in this document.
 	
 	Scroll down to about line 11, where you'll see `<unit name="inch" meter="0.0254"/>`.  I found that making one inch equal 0.0154 meters does a pretty good job.
 
+9. You can customize some properties of the lanes and curbs.
+	```
+	cd ~/catkin_ws/src/world_demo/scripts
+	pico create_parking_world.py
+	```
 	
-	
+	Near the top of this Python script you'll see several editable parameter values.  For example:
+	- `asphaltHeight`
+	- `lineColor`
+	- `curbHeight`
+	- `curbColor`
+
 	

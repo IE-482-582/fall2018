@@ -13,15 +13,21 @@ USAGE:
 	python create_parking_world.py
 '''
 
-asphaltHeight = 0.01
+# ----------------------------
+# You might want to edit these
+# ----------------------------
+asphaltHeight = 0.01	# Increase to 0.02 if you want to hide the background grid from showing through the pavement.
 
 lineWidth 	= 0.14
-lineHeight 	= 0.02
-lineColor 	= 'White'
+lineHeight 	= asphaltHeight + 0.01
+lineColor 	= 'White'		# 'Yellow' should also work.
 
-curbWidth	= 0.25
-curbHeight	= 0.5
+curbWidth	= 0.25		# "Thickness" of the curb
+curbHeight	= asphaltHeight + 0.5	
 curbColor	= 'Red'
+# ----------------------------
+
+# ----DON'T EDIT BELOW HERE---
 
 
 class make_coords:

@@ -67,7 +67,7 @@ There are 3 sections in this document.
 
 ## 2) Creating a Custom Maze World
 
-![maze image][screenshots/maze.png]
+![maze image](screenshots/maze.png)
 
 1. Edit the `sample_racetrack.xls` file in Libre Office Calc.
 
@@ -119,7 +119,7 @@ There are 3 sections in this document.
 
 ## 3) Creating a Parking Lot World
 
-![parking lot image][screenshots/parking_lot.png]
+![parking lot image](screenshots/parking_lot.png)
 
 1. Copy files from `~/Downloads/world_demo` into your catkin workspace directory.  **RUN EACH COMMAND ONE-AT-A-TIME.**
 	```

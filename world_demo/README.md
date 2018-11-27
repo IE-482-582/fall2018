@@ -67,6 +67,8 @@ There are 3 sections in this document.
 
 ## 2) Creating a Custom Maze World
 
+(maze image)[screenshots/maze.png]
+
 1. Edit the `sample_racetrack.xls` file in Libre Office Calc.
 
 2. Save as `sample_racetrack.csv` (export as `.csv` file):

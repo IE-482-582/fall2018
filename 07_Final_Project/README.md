@@ -1,10 +1,10 @@
 # Final Project
 
 ## IMPORTANT DATES:
-- **Monday, Dec. 10, 10:00am** -- .zip archive containing README and code due.  Send email  to Somayeh and Dr. Murray.  Be sure to cc your partner.
+- **Monday, Dec. 10, 10:00am** -- .zip archive containing README and code due.  Send email  to Somayeh and Dr. Murray.  Be sure to cc your partner on this email.
 - **Monday, Dec. 10** and **Tuesday, Dec. 11** -- Project presentations (location to-be-determined).
 	- Each group will be provided feedback during these presentations.
-- **Friday, Dec. 14, 5:00pm** -- Final version of .zip archive due.  Send email to Somayeh and Dr. Murray.
+- **Friday, Dec. 14, 5:00pm** -- Final version of .zip archive due.  Send email to Somayeh and Dr. Murray.  Be sure to cc your partner.
 
 ---
 
@@ -24,6 +24,7 @@ code/projectname/
 	package.xml
 ```		
 
+- A sample README file [may be found here](README_template_for_final_report.md)
 - `Images/` is a directory (folder) for storing the graphics for your README.
 - `code/projectname/` is a directory for your ROS code.  Replace `projectname` with the name of your catkin package.
 	- Within this directory you should have `CMakeLists.txt`, `package.xml`, a `scripts/` directory, most likely a `msg/` directory, and possibly a `srv/` directory (if your project uses services).  

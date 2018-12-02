@@ -3,7 +3,7 @@ This document provides a template for your final documentation.
 - Your document should be named simply `README.md`.  
 - I've left several comments below.  These should obviously be removed from your document.
 - You may add additional sections as you see fit, but you should not **remove** any of the sections defined below.
-- Any supplementary images should go in a directory called `Images`.  See [link to main README document] for more information about the required directory structure.
+- Any supplementary images should go in a directory called `Images`.  See [README.md](README.md) for more information about the required directory structure.
 - Please keep in mind that the audience for this document should be students in the Fall 2019 section of this class.  (In other words, write this such that 3-month-younger you would've been able to utilize this document.)
 
 ---

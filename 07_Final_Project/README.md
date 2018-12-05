@@ -6,6 +6,30 @@
 	- Each group will be provided feedback during these presentations.
 - **Friday, Dec. 14, 5:00pm** -- Final version of .zip archive due.  Send email to Somayeh and Dr. Murray.  Be sure to cc your partner.
 
+
+### Final Presentation Schedule
+
+<TABLE>
+<TR><TD COLSPAN=2>MONDAY, DEC. 10</TD></TR>
+<TR><TD>9am - 10am</TD><TD></TR>	
+<TR><TD>10am - 11am</TD><TD>Akarsh</TD></TR>
+<TR><TD>11am - Noon</TD><TD>Obe/Pushkaraj</TD></TR>
+<TR><TD>Noon - 1pm</TD><TD>Kai/Pin-Chun</TD></TR>
+<TR><TD>1pm - 2pm</TD><TD>David/Scott</TD></TR>
+<TR><TD>2pm - 3pm</TD><TD></TD></TR>	
+<TR><TD>3pm - 4pm</TD><TD>Lan</TD></TR>
+</TABLE>
+
+<TABLE>
+<TR><TD COLSPAN=2>TUESDAY, DEC. 11</TD></TR>
+<TR><TD>11am - Noon</TD><TD>Mindy/Tiffany</TD></TR>
+<TR><TD>Noon - 1pm</TD><TD></TD></TR>	
+<TR><TD>1pm - 2pm</TD><TD>Antonio/Brendan</TD></TR>
+<TR><TD>2pm - 3pm</TD><TD>Emily</TD></TR>
+<TR><TD>3pm - 4pm</TD><TD>Connor/Vincent</TD></TR>
+<TR><TD>4pm - 5pm</TD><TD>Cameron/Vincenzo</TD></TR>
+</TABLE>
+
 ---
 
 ## What to Submit?
